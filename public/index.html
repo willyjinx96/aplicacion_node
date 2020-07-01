@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Socket.io</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <h1>Williams Fernando Quispe Condori </h1>
+    <h1>Paralelo: B</h1><br>
+    <div id="chat-container">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="actions"></div>
+        </div>
+        <input type="text" id="username" placeholder="Username"><br>
+        <input type="text" id="message" placeholder="Message"><br>
+        <button id="send">Send</button>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js" charset="utf-8"></script>
+</body>
+
+</html>
